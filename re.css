@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+html {
+  cursor: default; /* 1 */
+  font-family: system-ui, /* macOS 10.11-10.12 */ -apple-system,
+    /* Windows 6+ */ Segoe UI, /* Android 4+ */ Roboto,
+    /* Ubuntu 10.10+ */ Ubuntu, /* Gnome 3+ */ Cantarell,
+    /* KDE Plasma 5+ */ Noto Sans, /* fallback */ sans-serif,
+    /* macOS emoji */ "Apple Color Emoji", /* Windows emoji */ "Segoe UI Emoji",
+    /* Windows emoji */ "Segoe UI Symbol", /* Linux emoji */ "Noto Color Emoji"; /* 2 */
+
+  line-height: 1.15; /* 3 */
+  -moz-tab-size: 4; /* 4 */
+  tab-size: 4; /* 4 */
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
+}
+body {
+  font-family: "Roboto";
+  text-rendering: optimizeLegibility;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: "Roboto";
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  -webkit-appearance: none !important;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+  -webkit-appearance: none !important;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
